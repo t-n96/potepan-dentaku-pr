@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="content">
+    <div class="front">
+      <input readonly id="result" type="text" value="0">
+    </div>
+    <div class="items">
+      <button onclick="num_click(this.innerHTML)">7</button>
+      <button onclick="num_click(this.innerHTML)">8</button>
+      <button onclick="num_click(this.innerHTML)">9</button>
+      <button onclick="ope_click(this.innerHTML)">÷</button>
+      <button onclick="num_click(this.innerHTML)">4</button>
+      <button onclick="num_click(this.innerHTML)">5</button>
+      <button onclick="num_click(this.innerHTML)">6</button>
+      <button onclick="ope_click(this.innerHTML)">×</button>
+      <button onclick="num_click(this.innerHTML)">1</button>
+      <button onclick="num_click(this.innerHTML)">2</button>
+      <button onclick="num_click(this.innerHTML)">3</button>
+      <button onclick="ope_click(this.innerHTML)">-</button>
+      <button onclick="num_click(this.innerHTML)">0</button>
+      <button onclick="num_click(this.innerHTML)">00</button>
+      <button onclick="num_click(this.innerHTML)">.</button>
+      <button onclick="ope_click(this.innerHTML)">+</button>
+      <button onclick="ac_click()" class="btn-reset">AC</button>
+      <button onclick="equal_click()" class="btn-result">=</button>
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

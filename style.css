@@ -1,0 +1,40 @@
+
+
+#result {
+  width: 300px;
+  height: 60px;
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+input {
+  color: #fff;
+  font-size: 35px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.items {
+  width: 300px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  border: 0.7px solid #000;
+  background-color: #DDDDDD;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #BBBBBB;
+}
+
+.btn-reset,
+.btn-result {
+  width: 50% !important;
+}
